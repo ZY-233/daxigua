@@ -6,7 +6,7 @@
 let extraScore = 1;
 
 // 无敌模式：true 改为 false
-let wuDi = true;
+let wuDi = false;
 
 // 第一个水果：修改数字为 0-10, 0 为葡萄，9 为半个西瓜
 let firstFruit = 0;
@@ -35,7 +35,7 @@ let fruitSlowDown = false;
 let clickChangeFruit = true;
 
 // 广告链接：false 或为空字符串表示不会跳转到广告
-let adLink = ' ';
+let adLink = 'https://mu-mu-zy-233.vercel.app/';
 
 // 修改网页标题：将 "合成大西瓜" 进行替换
 document.getElementsByTagName("title")[0].innerText = '合成大慕慕';
