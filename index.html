@@ -7,7 +7,7 @@
     <!--  -->
     <title>合成大慕慕</title>
    <audio autoplay="autoplay" controls="controls"loop="loop" preload="auto"
-                src="res/GirlsHop.mp3" Volume="50" id="vd" >
+                src="res/GirlsHop.mp3" Volume="0.1" id="vd" >
        </audio>
     <script type="text/javascript">
         window.onload = function(){
@@ -16,7 +16,7 @@
 
         function toggleSound() {
                     var music = document.getElementById("vd");//获取ID  
-                    
+                    document.getElementById("vd").volume = 0.2;
                     if (music.paused) { //判读是否播放  
                         music.paused=false;
                         music.play(); //没有就播放 
