@@ -7,23 +7,23 @@
     <!--  -->
     <title>合成大慕慕</title>
    <audio autoplay="autoplay" controls="controls"loop="loop" preload="auto"
-
-                src="res/GirlsHop.mp3">
+                src="res/GirlsHop.mp3" id="vd" >
        </audio>
-<script type="text/javascript">
-    window.onload = function(){
-             setInterval("toggleSound()",100);
-        }
+    <script type="text/javascript">
+        window.onload = function(){
+                 setInterval("toggleSound()",100);
+            }
 
-    function toggleSound() {
-                var music = document.getElementById("vd");//获取ID  
+        function toggleSound() {
+                    var music = document.getElementById("vd");//获取ID  
                     
-                if (music.paused) { //判读是否播放  
-                    music.paused=false;
-                    music.play(); //没有就播放 
-                }    
-        }
-</script>
+                    if (music.paused) { //判读是否播放  
+                        music.paused=false;
+                        music.play(); //没有就播放 
+                    }    
+            }
+    </script>
+
     <!--http://www.html5rocks.com/en/mobile/mobifying/-->
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1" />
 
