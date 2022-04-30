@@ -41,5 +41,5 @@ let adLink = 'https://mu-mu-zy-233.vercel.app/';
 document.getElementsByTagName("title")[0].innerText = '合成大慕慕';
 
 // 开启选分弹窗：将 false 改为 true
-let selectModal = true;
+let selectModal = false;
 
